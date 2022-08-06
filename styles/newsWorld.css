@@ -1,0 +1,18 @@
+#news_world{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#news_world>div>h3{
+    
+    text-align: center;
+}
+#news_world>div>img{
+    height:300px;
+    width:350px;
+}
+#news_world>div{
+    
+    width:fit-content;
+    height: fit-content;
+}
